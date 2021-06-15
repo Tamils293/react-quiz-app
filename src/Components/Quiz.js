@@ -124,7 +124,7 @@ finishHandler =() => {
            
             return (
                 
-                <div  style={{ margin : "0 10px"}}>
+                <div style={{margin : "0 8px"}}  >
                     <h1>Game Over. Final score is {this.state.score} points</h1>
                     <p>The correct Answers for the quiz are</p>
                      
