@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: Arial;
+}
+
+#id {
+  text-align: center;
+  font-family: Arial;
+  text-decoration: none;
+  color: powderblue;
+}
+
+/* The answer selecteed by the user */
+.selected {
+  background-color: rgb(55, 240, 17);
+}
+
+/* The list of options */
+.options {
+  padding: 8px;
+  border: 3px solid #000;
+  cursor: pointer;
+}
+
+.qns {
+  background-color: orange;
+  color: white;
+  float: left;
+}
+
+.timer {
+  float: right;
+  color: azure;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-right: 50px;
+}
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border-top: 4px solid lightskyblue;
+  border-bottom: hidden;
+}
+
+body {
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 18px;
+  background-color: #2980b9;
+}
